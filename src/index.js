@@ -3,7 +3,7 @@ const path = require('path');
 const db = require('electron-db');
 const bcrypt = require('bcryptjs');
 const fs = require('fs')
-
+//modifica fatta da Lu
 const saltRounds = 10;
 const ipc = ipcMain;
 const location = path.join(__dirname, '/databases');
