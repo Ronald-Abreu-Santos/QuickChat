@@ -1,0 +1,17 @@
+@font-face{
+  font-family: 'OpenSans';
+  src:  url('../../font/OpenSans.ttf') format('truetype');
+  font-family: 'Poppins';
+  src:  url('../../font/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+body {
+  font-family: "Poppins" !important;
+}
+.avviso{
+  visibility: hidden;
+  display: none !important;
+}
+.avvisoAttivo{
+  visibility:visible;
+  display:flex;
+}
